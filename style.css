@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins";
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100%;
+    flex-direction: column;
+}
+
+header {
+    width: 530px;
+    background-color: tomato;
+    padding: 10px 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 30px;
+}
+
+header input {
+    border: none;
+    background: none;
+    color: #fff;
+    padding: 10px 30px;
+    width: 350px;
+    outline: none;
+}
+
+header input::placeholder {
+    color: #fff;
+}
+
+header button {
+    padding: 10px 30px;
+    background-color: #fff;
+    border-radius: 20px;
+    color: tomato;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+
+main {
+    width: 530px;
+    background-color: tomato;
+    border: 1px solid #fff;
+    height: 210px;
+    overflow-y: auto;
+    padding: 10px 30px;
+    border-radius: 30px;
+    margin-top: 1.54rem;
+    display: flex;
+    align-items: center;    
+    justify-content: center;
+}
+
+main ul {
+    list-style: none;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h1{
+    font-size: 70px;
+    color: #fff;
+    font-weight: 600
+}
+
+main li {
+    background-color: #fff;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    justify-content: space-between;
+    padding: 10px 30px;
+    border-radius: 30px;
+}
+
+
+main li input{
+    border: none;
+    outline: none;
+    font-size: 15px;
+}
+
+main li button{
+     padding: 10px 30px;
+     background-color: tomato;
+     border-radius: 20px;
+     color: #fff;
+     outline: none;
+     border: none;
+     cursor: pointer;
+     margin-right: 10px;
+}
+
+
+main li input:focus{
+    color: tomato;
+}
+
+.hidden{
+    display: none;
+}
